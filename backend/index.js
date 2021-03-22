@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+
 require('newrelic');
 const express = require('express');
 const cors = require('cors');
@@ -22,7 +22,6 @@ const getAverage = (shopReviews) => {
 };
 
 const PUBLIC_DIR = path.resolve(__dirname, '../public');
-//const db = require('./database');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
