@@ -26,6 +26,8 @@ const PUBLIC_DIR = path.resolve(__dirname, '../public');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// api handler for given front end json structure.
+// returns review with desired product id
 app.get('/api/reviews/:id', (req, res) => {
   const { id } = req.params;
   reviews.query(`select * from reviews where product_id = ${id}`,
