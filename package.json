@@ -16,9 +16,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Chill-Crocs/ratings-service/issues"
+    "url": "https://github.com/hjlee0704/etsybitsy/issues"
   },
-  "homepage": "https://github.com/Chill-Crocs/ratings-service#readme",
+  "homepage": "https://github.com/hjlee0704/etsybitsy#readme",
   "dependencies": {
     "aws-sdk": "^2.834.0",
     "axios": "^0.18.1",
