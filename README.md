@@ -12,8 +12,8 @@
 ## About
 
 This application is the project that I worked during Hack Reactor. With given front end lagacy code, I reconstructed the backend for ecommerce website which is a replication of Etsy. I was  responsible for the review component, which displays users ratings, comments, and pictures for the item.
-I scaled this application with using Nginx load balancer/rever proxy server and 4 servers (Node.js/Express) with 1 database(Postgres SQL). All of my services are deployed through AWS EC2 instances and hold all static files in S3 buckets and distributed with CloudFront.
-With this setup I was able to achieve 2,000 rps, 300 ms latency, and under 1% error rates.
+I scaled this application with using Nginx load balancer/rever proxy server and 5 servers (Node.js/Express) with 1 database(Postgres SQL). All of my services are deployed through AWS EC2 instances and hold all static files in S3 buckets and distributed with CloudFront.
+With this setup I was able to achieve 4,530 rps, 300 ms latency, and under 1% error rates.
 
 
 ## Installation
